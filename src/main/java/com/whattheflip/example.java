@@ -7,7 +7,8 @@ public class example {
         Finch bird = new Finch();
 
 
-bird.setMove(direction: "F", distance:20. speed:100);
+bird.setMove("F", 20, 100);
+bird.print("I <3 you");
         bird.stop();
         bird.disconnect();
     }
