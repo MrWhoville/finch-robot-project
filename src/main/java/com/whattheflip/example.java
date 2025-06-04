@@ -10,7 +10,7 @@ public class example {
 bird.setMove("F", 20, 100);
 bird.setTurn("R",90, 100);
 String message1 = "I <3 u";
-String message2 = "I hoped you liked my dance";
+String message2 = "I hoped you liked my dance nerd";
 bird.print(message1);
 String[] letters = message1.split("");
 for (String letter : letters) {
@@ -18,7 +18,7 @@ for (String letter : letters) {
     bird.setDisplay(pattern);
    bird.pause(0.5);
  }
-for (int i = 0; i < 4; i++){
+for (int i = 0; i < 5; i++){
   bird.setTurn("L",270, 200);
   bird.setMove("F", 30, 200);
     bird.setTurn("R", 120, 200);
